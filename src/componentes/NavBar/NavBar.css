@@ -1,6 +1,7 @@
 .tittle {
     font-size: 60px;
     margin-bottom: 40px;
+    color: white;
 }
 
 .content-main {
@@ -8,6 +9,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 .card {
     margin-right: 20px;

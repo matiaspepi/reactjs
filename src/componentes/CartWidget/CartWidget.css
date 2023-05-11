@@ -1,0 +1,14 @@
+.content-cart {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.cart-img {
+    width: 25px;
+    height: 25px;
+}
+.button-cart {
+    border-radius: 90%;
+}

@@ -9,11 +9,12 @@ import Card from 'react-bootstrap/Card';
 const NavBar = () => {
     return (
         <nav>
-            <h3 className = "tittle">
+            <h1 className = "tittle">
                 Ecomerce
-            </h3>
+            </h1>
+            <CartWidget />
         <div className ="content-main">
-          <Card className= "cards" style={{ width: '18rem',height: '400px' }}>
+          <Card data-aos="zoom-in-up" className= "cards" style={{ width: '18rem',height: '400px' }}>
                 <Card.Img variant="top" src= {celular} style= {{height: '195px'}}/>
                    <Card.Body>
                   <Card.Title>Celulares</Card.Title>
@@ -24,7 +25,7 @@ const NavBar = () => {
                 </Card.Body>
               </Card>
 
-              <Card className= "cards"  style={{ width: '18rem', height: '400px'}}>
+              <Card data-aos="zoom-in-up" className= "cards"  style={{ width: '18rem', height: '400px'}}>
                 <Card.Img variant="top" src= {tablets}  />
                    <Card.Body>
                   <Card.Title>Tablets</Card.Title>
@@ -35,7 +36,7 @@ const NavBar = () => {
                 </Card.Body>
               </Card>
 
-              <Card className= "cards" style={{ width: '18rem'}}>
+              <Card data-aos="zoom-in-up" className= "cards" style={{ width: '18rem'}}>
                 <Card.Img variant="top" src= {notebooks}/>
                    <Card.Body>
                   <Card.Title>Notebooks</Card.Title>
@@ -46,7 +47,7 @@ const NavBar = () => {
                 </Card.Body>
               </Card>
               </div>  
-        <CartWidget />
+       
         </nav>
     )
 }
